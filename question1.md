@@ -10,7 +10,7 @@ from ilhan_sozer.summer_medals
 group by sport,country
 order by sport,total_medal DESC
 )
-
+-- bu sorgu ile de sıralanmış tablomuzdan 1. 3. 5. satırları seçerek ilgili ülkeleri bulmuş oldum
 SELECT 
   sport,
   country,
